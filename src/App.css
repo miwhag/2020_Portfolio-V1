@@ -52,6 +52,7 @@ table {
 .App {
   font-family: 'Raleway', sans-serif;
   color:#4d4646;
+  width: 100%;
 }
 
 .main-header{
@@ -59,41 +60,70 @@ table {
 }
 
 .greeting-container{
-  font-size:6em; 
+  font-size:4em; 
   align-self: center;
-  margin-left: 3.5em;
+  margin-left: 2.6em;
+  border: none;
 
 }
 
-.miwha-picture {
-  margin-top: 3.5em;
-  max-width: 60rem;
-  opacity: 0.9;
-}
 
 p  {
   font-size: .2em;
 }
 
 body {
-  display: flex;
+  display: flexbox;
+  height: 30rem;
 }
 
 
 .about-me-section {
-  width: 100%;
-  height: 7em;
-  background-color:whitesmoke;
-  font-size:6em; 
+
+  background-color:#d8cbbb;
+  font-size:4em; 
+  padding: 1em;
+
 }
 
+.about-me-box{
+  box-shadow: 10px 10px 11px #888888;
+  width: 4em;
+  height: 4em;
+  background-color: white;
+  margin: .4em;
+  padding: 1em;
+  float: left;
+  justify-content: space-around;
+  
+}
+
+.back-end{
+  box-shadow: 10px 10px 11px #888888;
+  width: 4em;
+  height: 4em;
+  background-color: white;
+  margin: 1em;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.design {
+  box-shadow: 10px 10px 11px #888888;
+  width: 4em;
+  height: 4em;
+  background-color: white;
+  margin: 1em;
+  display: inline-block;
+ 
+}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:whitesmoke;
+  background-color: #5c7658;
 }
 
 li {
@@ -104,7 +134,7 @@ li {
 li a {
   display: block;
   font-weight: 500;
-  color:grey;
+  color:white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -113,3 +143,5 @@ li a {
 li a:hover {
   font-weight: 800;
 }
+
+

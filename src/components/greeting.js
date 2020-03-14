@@ -2,11 +2,12 @@ import React from 'react'
 
 
 export default function Greeting(){
-    return (
-        <div class="greeting-container"> I'm Miwha
 
-             <p>I'm a front end web developer, <br></br>
-            fascinated on where code and design intersect</p>
+    return (
+        <div className="greeting-container"> Miwha Geschwind
+
+             <p>A Full Stack Developer & Designer  <br></br>
+           with a fascination with where code and design intersect</p>
 
         </div>
     ) 

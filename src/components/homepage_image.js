@@ -1,5 +1,5 @@
 import React from 'react'
-import homepic from '../homepagepic.png'
+import homepic from '../brp.svg'
 
 
 export default function Homepic(){
