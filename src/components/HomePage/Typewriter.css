@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,700&display=swap');
+
+
+.BlogHome-container{
+    display: flex;
+    background-color: whitesmoke;
+    background-image: url("https://i.ibb.co/kQ3NXRv/Blog-Post-blue-background.png");
+    background-size: 30em;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+  }
+  
+
+  .BlogHome-medium-image{
+    width: 30em;
+    padding: 4em 4em 4em 8em;
+  }
+
+  .BlogHome-typewriter-container{
+      align-self: center;
+      display: flex;
+    flex-direction: column;
+  }
+
+  .BlogHome-medium-red-logo-container{
+    display: flex;
+    margin-bottom: 5em;
+  }
+
+  .BlogHome-medium-red-logo{
+      width: 4em;
+      padding-bottom: 1em;
+  }
+
+  .BlogHome-blog-title{
+      font-size:2em;
+      padding-top: 0.5em;
+      padding-left: 0.5em;
+  }
+
+.typewriter{
+    display:flex;
+    justify-content: center;
+}
+
+.Typewriter-Header{
+    color:#537ec5;
+    font-size: 2em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+}
+
+Typewriter-response-wrapper{
+    font-size: 2em;
+    display: flex;
+    height: 3em;
+    padding-left: 0.5em;
+    font-family: 'Noto Sans JP', sans-serif;
+  
+}
+
