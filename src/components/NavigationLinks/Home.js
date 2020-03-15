@@ -4,8 +4,8 @@ import HomePageBlocks from '../HomePage/HomePageBlocks';
 import SpaceDivider from '../HomePage/SpaceDivider'
 import Footer from '../Footer'
 import BlogHome from '../HomePage/BlogHome'
-import Typewriter from '../HomePage/Typewriter'
 import {StyledLogo} from '../HomePage/StyledLogo'
+import AboutMe from './AboutMe'
 
 export default class Home extends Component {
     render(){
@@ -18,6 +18,7 @@ export default class Home extends Component {
           </header>
           
             <body>
+              <AboutMe />
             <HomePageBlocks/>
             <SpaceDivider/>
             <BlogHome/>

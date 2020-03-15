@@ -81,7 +81,8 @@ body{
 
 .main-header{
   display: flex;
-  height: 39em;
+  height: 43em;
+  margin-top: 4em;
 }
 
 .greeting-container{
@@ -90,7 +91,6 @@ body{
   margin-left: 2.6em;
   border: none;
 }
-
 
 p  {
   font-size: .4em;
@@ -123,9 +123,9 @@ margin-top: 0.5em;
   border-radius: 25px;
   align-self: center;
   width:370px;
-  height: 400px;
+  height: 370px;
   background-color: white;
-  margin: 10px;
+  margin: 1em;
   float: left;
   font-size: 0.3em;
   display: grid;
@@ -143,7 +143,8 @@ margin-top: 0.5em;
 
 
 .space-divider{
-  height: 19em;
+  height: 16em;
+  /* background-color: ; */
 }
 
 footer{
@@ -215,4 +216,8 @@ width: 23em;
 }
 .Footer-navigation:hover{
   font-weight: 900;
+}
+
+.test{
+  align-self: flex-end;
 }

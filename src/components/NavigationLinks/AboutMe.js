@@ -1,8 +1,9 @@
 import React from 'react'
+import './AboutMe.css'
 
-export default function AboutMe(props) {
+export default function AboutMe() {
     return (
-        <div className="AboutMeHeader">
+        <div className="AboutMe-main-container">
             <h1>About Me Page</h1>
             
            </div>

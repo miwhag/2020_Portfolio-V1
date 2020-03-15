@@ -8,17 +8,10 @@ export default function BlogHome() {
                 <section className="BlogHome-image-container">
                 <img className="BlogHome-medium-image" src={mediumImage} alt="Medium"/>
                 </section>
-          
-
 
                 <section className="BlogHome-typewriter-container">
-                {/* <div className="BlogHome-medium-red-logo-container"> */}
-                    {/* <img className="BlogHome-medium-red-logo" src="https://i.ibb.co/CnhQ4h5/medium-red.png" alt="mediumlogo"/>
-                    <h1 className="BlogHome-blog-title">BLOGS</h1> */}
-                {/* </div> */}
                     <Typewriter/>
                 </section>
-           
         </div>
     )
 }

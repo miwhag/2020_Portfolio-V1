@@ -5,14 +5,14 @@
     display: flex;
     background-color: whitesmoke;
     background-image: url("https://i.ibb.co/kQ3NXRv/Blog-Post-blue-background.png");
-    background-size: 30em;
+    background-size: 28em;
     background-position: left bottom;
     background-repeat: no-repeat;
   }
   
 
   .BlogHome-medium-image{
-    width: 30em;
+    width: 22em;
     padding: 4em 4em 4em 8em;
   }
 
@@ -22,20 +22,15 @@
     flex-direction: column;
   }
 
-  .BlogHome-medium-red-logo-container{
-    display: flex;
-    margin-bottom: 5em;
-  }
-
-  .BlogHome-medium-red-logo{
-      width: 4em;
-      padding-bottom: 1em;
-  }
 
   .BlogHome-blog-title{
       font-size:2em;
       padding-top: 0.5em;
       padding-left: 0.5em;
+  }
+
+  .BlogHome-view-blog-link{
+    font-size: 2em;
   }
 
 .typewriter{
@@ -54,8 +49,18 @@ Typewriter-response-wrapper{
     font-size: 2em;
     display: flex;
     height: 3em;
-    padding-left: 0.5em;
     font-family: 'Noto Sans JP', sans-serif;
-  
+    margin-left: -7.1em;
 }
 
+.Typewriter-medium-link{
+    padding-top:5em;
+    margin-left: 11em;
+    text-decoration: none;
+    color: #444444;
+    font-size: 1.2em;
+}
+
+.Typewriter-green-icon{
+    width: 2em;
+}

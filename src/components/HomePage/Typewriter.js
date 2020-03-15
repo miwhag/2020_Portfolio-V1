@@ -8,6 +8,7 @@ export default class Typewriter extends Component {
         return(
                 <div className="typewriter">
                     <h1 className="Typewriter-Header">Where I talk about </h1>
+                    <a href ="https://medium.com/@miwhag" target="_blank" className="Typewriter-medium-link"><img className="Typewriter-green-icon" src="https://i.ibb.co/bRbpz8V/right-arrow.png" alt="green-arrow"/></a>
                 <Typical 
                     steps={[
                         'Coding',
@@ -16,7 +17,7 @@ export default class Typewriter extends Component {
                         1000, 
                         'Design',
                         1000, 
-                        'Tech Industry',
+                        'The Tech Industry',
                         1000, 
                         'My Journey',
                         1000, 
