@@ -1,11 +1,13 @@
 import React from 'react'
-import NavBar from './NavBar'
+import '../ContactPage/Contact.css'
+import Footer from '../Footer'
 
 export default function Contact() {
     return (
         <div>
             <h1>Contact Page</h1>
-            <NavBar/>
+            <main className="Contact-main-container"></main>
+            <Footer/>
         </div>
     )
 }

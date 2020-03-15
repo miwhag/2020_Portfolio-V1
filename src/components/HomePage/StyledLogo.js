@@ -1,4 +1,4 @@
-import { ReactComponent as ReactLogo } from '../image.svg'
+import { ReactComponent as ReactLogo } from '../../image.svg'
 import styled from 'styled-components'
 import { keyframes } from 'styled-components'
 

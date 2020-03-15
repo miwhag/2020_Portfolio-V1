@@ -1,12 +1,12 @@
 import React from 'react'
-import NavBar from './NavBar'
+import Footer from '../Footer'
 
 
 export default function Blogs() {
     return (
         <div>
             <h1>Blog Page</h1>
-            <NavBar/>
+            <Footer/>
         </div>
     )
 }
