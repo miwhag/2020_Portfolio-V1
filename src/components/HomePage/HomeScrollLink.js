@@ -11,6 +11,6 @@ export default function HomeScrollLink() {
         offset={-70}
         duration= {800}
         className="NavBar-links" 
-        to='box-1'>About Me</Link>
+        to='HomePageBlocks-about-me'>About Me</Link>
     )
 }

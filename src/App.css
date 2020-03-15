@@ -59,7 +59,7 @@ body{
 }
 
 .navbar{
-  background-color: #5c7658;
+  background-color: #537ec5;
   color: white;
   height: 6em;
   display:flex;
@@ -81,7 +81,8 @@ body{
 
 .main-header{
   display: flex;
-  height: 39em;
+  height: 43em;
+  margin-top: 4em;
 }
 
 .greeting-container{
@@ -91,18 +92,17 @@ body{
   border: none;
 }
 
-
 p  {
   font-size: .4em;
   padding-top:0.5em;
 }
 
 .about-me-section {
-  background-color:#f6eedf;
+  background-color:#e3b04b;
+  color:white;
   font-size:4em; 
   padding: 1em;
-  height: 3em;
-
+  height: 5em;
 }
 
 .box-body-container{
@@ -117,20 +117,49 @@ margin-top: 0.5em;
   padding: 3em;
 }
 
+.HomePageBlocks-about-me{
+font-size: 0.6em;
+display: grid;
+justify-content: center;
+text-align: center;
+}
+
+.HomePageBlocks-about-me-paragraph{
+  width: 40em;
+  text-align: center;
+  font-size: 0.5em;
+  padding: 1em;
+
+}
+
+.HomeBlock-box-text-content{
+  margin-left: 4em;
+  font-size: 0.8em;
+  padding: 2em;
+  list-style-type: circle;
+  color: black;
+}
+
+.HomePageBlock-header-sub-text{
+  font-size: 0.8em;
+  text-align: center;
+  padding: 0.4em 2em 1em 2em;
+}
 
 .box-1, .box-2, .box-3{
   box-shadow: 10px 10px 11px #888888;
   border-radius: 25px;
   align-self: center;
   width:370px;
-  height: 400px;
+  height: 370px;
   background-color: white;
-  margin: 10px;
+  color: black;
+  margin: 1em;
   float: left;
   font-size: 0.3em;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 30% 70%;
+  grid-template-rows: 32% 6.5% 9% 50%;
 }
 
 .box-1:hover, .box-2:hover, .box-3:hover  {
@@ -139,12 +168,22 @@ margin-top: 0.5em;
 
 .HomePageBlock-header-text{
   text-align: center;
+  font-size: 1em;
+  color: black;
 }
 
 
 .space-divider{
-  height: 19em;
+    height: 25em;
+    background-image: url('https://i.ibb.co/HDysbgx/marble.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    width: 100%;
+   background-size: 90em;
 }
+
+
 
 footer{
   background-color: #323232;
@@ -215,4 +254,8 @@ width: 23em;
 }
 .Footer-navigation:hover{
   font-weight: 900;
+}
+
+.test{
+  align-self: flex-end;
 }
