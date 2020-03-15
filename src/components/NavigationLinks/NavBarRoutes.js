@@ -1,6 +1,5 @@
 import React from 'react'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import AboutMe from './AboutMe'
 import Contact from './Contact'
 import Blogs from './Blogs'
 import NavBar from './NavBar'
@@ -15,7 +14,6 @@ export default function NavBarRoutes(){
       <div className="App">
       <Switch>
         <Route exact path='/' component={Home}/>
-        <Route exact path='/about' component={AboutMe}/>
         <Route exact path='/contact' component={Contact}/>
         <Route exact path='/blogs' component={Blogs}/>
         <Route exact path='/download_resume' component={DownloadResume}/>

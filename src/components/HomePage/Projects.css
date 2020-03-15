@@ -1,0 +1,21 @@
+.Project-section-container{
+    height: 60em;
+}
+
+.Project-section-title{
+    font-size: 3em;
+    text-align: end;
+    padding: 1.5em 2em 1em 0em;
+}
+
+.Project-project-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project{
+    width: 25em;
+    height: 18em;
+    background-color: green;
+    margin: 2em;
+}
