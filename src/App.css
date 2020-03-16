@@ -61,9 +61,10 @@ body{
 .navbar{
   background-color: #537ec5;
   color: white;
-  height: 6em;
+  height: 4em;
   display:flex;
   justify-content: flex-end;
+ 
 }
 
 .NavBar-links{
@@ -101,8 +102,8 @@ p  {
   background-color:#e3b04b;
   color:white;
   font-size:4em; 
-  padding: 1em;
-  height: 5em;
+  padding: 0.5em;
+  height: 6em;
 }
 
 .box-body-container{
@@ -118,6 +119,7 @@ margin-top: 0.5em;
 }
 
 .HomePageBlocks-about-me{
+padding-top: 1em;
 font-size: 0.6em;
 display: grid;
 justify-content: center;
@@ -128,7 +130,7 @@ text-align: center;
   width: 40em;
   text-align: center;
   font-size: 0.5em;
-  padding: 1em;
+  margin: 1em 0em 1em 0em;
 
 }
 
@@ -147,11 +149,11 @@ text-align: center;
 }
 
 .box-1, .box-2, .box-3{
-  box-shadow: 10px 10px 11px #888888;
-  border-radius: 25px;
+  box-shadow: 12px 17px 15px #868686;
+  border-radius:4em;
   align-self: center;
-  width:370px;
-  height: 370px;
+  width:19em;
+  height: 18em;
   background-color: white;
   color: black;
   margin: 1em;
@@ -174,7 +176,7 @@ text-align: center;
 
 
 .space-divider{
-    height: 25em;
+    height: 20em;
     background-image: url('https://i.ibb.co/HDysbgx/marble.png');
     background-attachment: fixed;
     background-position: center;
