@@ -6,6 +6,7 @@ import Footer from '../Footer'
 import BlogHome from '../HomePage/BlogHome'
 import {StyledLogo} from '../HomePage/StyledLogo'
 import Projects from '../HomePage/Projects'
+import CakeProjects from '../HomePage/CakeProjects'
 
 export default class Home extends Component {
     render(){
@@ -22,6 +23,7 @@ export default class Home extends Component {
             <SpaceDivider/>
             <Projects/>
             <BlogHome/>
+            <CakeProjects/>
             <Footer/>
       
             </body>

@@ -102,8 +102,8 @@ p  {
   background-color:#e3b04b;
   color:white;
   font-size:4em; 
-  padding: 1em;
-  height: 5em;
+  padding: 0.5em;
+  height: 6em;
 }
 
 .box-body-container{
@@ -153,10 +153,9 @@ text-align: center;
   border-radius:4em;
   align-self: center;
   width:19em;
-  height: 19em;
+  height: 18em;
   background-color: white;
   color: black;
-  margin-top: 2em;
   margin: 1em;
   float: left;
   font-size: 0.3em;
@@ -177,7 +176,7 @@ text-align: center;
 
 
 .space-divider{
-    height: 24em;
+    height: 20em;
     background-image: url('https://i.ibb.co/HDysbgx/marble.png');
     background-attachment: fixed;
     background-position: center;
