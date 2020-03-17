@@ -34,7 +34,7 @@ export default class ContactMe extends Component {
 
 
 
-        Axios.post('https://miwha-geschwind-portfolio.herokuapp.com/', this.state)
+        Axios.post('https://miwha-geschwind-portfolio.herokuapp.com/emails', this.state)
             .then(res => {
                 if(res.data.success) {
                     this.setState({
@@ -58,7 +58,6 @@ export default class ContactMe extends Component {
             })
 
     }
-
 
     render() {
         return (
