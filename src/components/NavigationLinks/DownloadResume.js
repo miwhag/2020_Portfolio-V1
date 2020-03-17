@@ -12,7 +12,7 @@ export default function DownloadResume() {
             <div className="resume-download-container">
             <img className="resume-image" src="https://i.ibb.co/nbVcQWY/Miwha-Geschwind-Resume.png" alt="Miwha-Geschwind-Resume"/>
             <div className="button-container">
-            <a href = {PDF} target = "_blank"><button class="download-resume-button">Download Pdf</button></a>      
+            <a href = {PDF} target = "_blank"><button class="download-resume-button">Download PDF</button></a>      
             </div> 
             </div> 
         </div>

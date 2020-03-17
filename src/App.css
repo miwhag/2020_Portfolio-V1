@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100, 300,700&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -115,7 +117,7 @@ margin-top: 0.5em;
 .HomePageBlock-icon{
   width: 2.7em;
   justify-self: center;
-  padding: 3em;
+  margin: 2.4em;
 }
 
 .HomePageBlocks-about-me{
@@ -138,12 +140,14 @@ text-align: center;
   margin-left: 4em;
   font-size: 0.8em;
   padding: 2em;
+  font-family: 'Noto Sans JP', sans-serif;
   list-style-type: circle;
-  color: black;
+  color: #222831;
 }
 
 .HomePageBlock-header-sub-text{
   font-size: 0.8em;
+  font-family: 'Noto Sans JP', sans-serif;
   text-align: center;
   padding: 0.4em 2em 1em 2em;
 }
@@ -155,7 +159,7 @@ text-align: center;
   width:19em;
   height: 18em;
   background-color: white;
-  color: black;
+  color: #222831;
   margin: 1em;
   float: left;
   font-size: 0.3em;
@@ -171,7 +175,9 @@ text-align: center;
 .HomePageBlock-header-text{
   text-align: center;
   font-size: 1em;
-  color: black;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  color: #222831;
 }
 
 

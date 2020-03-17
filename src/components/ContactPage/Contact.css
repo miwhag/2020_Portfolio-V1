@@ -1,3 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+}
+
 .Contact-main-container{
+    margin: 6em;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ContactMe-container{
+    display: flex;
+    justify-content: center;
+    width: 55em;
+    box-shadow: 5px 10px 40px #888888;
+    border-radius: 2em 2em 2em 2em;
+}
+
+.ContactMe-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
     height: 30em;
+    background-color: #F38E66;
+    padding-top: 2em;
+    border-radius: 2em 0em 0em 2em; 
+}
+
+
+.ContactMe-color{
+    width: 80%;
+    background-image: url('https://i.ibb.co/jRr89Xp/Contact-Me-Img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0em 2em 2em 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ContactMe-form-input{
+    margin: 1em 4em 1em 4em;
+    font-size: 1em;
+    color: white;
+    height: 2.5em;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+}
+
+.ContactMe-form-input::placeholder{
+    color: white;
+}
+
+.ContactMe-form-submit{
+    color: white;
+    font-size: 1em;
+    background-color:#F38E66;
+    border: 1px solid white;
+    border-radius: 4em;
+    height: 3em;
+    width: 8em;
+    margin-top: 1em;
+    align-self: center;
+}
+
+.ContactMe-form-submit:hover{
+    font-size: 1em;
+    color: #F38E66;
+    background-color: white;
+    border-radius: 4em;
+}
+
+.ContactMe-form-message{
+    margin: 1em 4.5em 1em 4.5em;
+    height: 7em;
+    font-size: 0.8em;
+    resize: vertical;
+    border-radius: 0.3em;
+    border: none;
+}
+
+.ContactMe-form-message:focus{
+    outline: none;
+}
+
+.ContactMe-greeting{
+    font-size: 2.3em;
+    color: #333333;
+    text-align: center;
+    padding-left: 0.5em;
+   font-weight: 900;
 }

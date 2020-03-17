@@ -13,7 +13,6 @@ export default function CakeProjects() {
                  centered
                  infinite
                  dots
-                 stopAutoPlayOnHover={true}
                  slidesPerPage={4} 
                  autoPlay={2000}
                 animationSpeed={500}>
@@ -30,8 +29,17 @@ export default function CakeProjects() {
                 <img  className="test-a" src="https://i.ibb.co/KNg7mnp/14.png" alt=""/>
                 <img className="test-a" src="https://i.ibb.co/mCRz9Vd/15.png" alt="" />
                 <img  className="test-a" src="https://i.ibb.co/4SgGSng/16.png" alt=""/>
-                <img className="test-a" src="https://i.ibb.co/dPSGq7H/17.png" alt="" />
-
+                <img className="test-a" src="https://i.ibb.co/dPSGq7H/17.png" alt="" /> 
+        
+                <img className="test-a" src="https://i.ibb.co/6szfmbC/33.png" alt="" />
+                <img  className="test-a" src="https://i.ibb.co/jZj64hV/32.png" alt=""/>
+                <img className="test-a" src="https://i.ibb.co/B3qmvKS/30.png" alt="" />
+                <img className="test-a" src="https://i.ibb.co/H4Gfygq/31.png" alt=""/>
+                <img className="test-a" src="https://i.ibb.co/8rCfKRH/29.png" alt="" />
+                <img  className="test-a" src="https://i.ibb.co/RbJWr2T/28.png" alt=""/> 
+                <img  className="test-a" src="https://i.ibb.co/6YQ03zv/24.png" alt=""/>
+                <img className="test-a" src="https://i.ibb.co/RjtzdZP/23.png" alt="" />
+                <img  className="test-a" src="https://i.ibb.co/Rcp5RLw/22.png" alt=""/>
                 </Carousel>
       </div>
             </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100, 300,700&display=swap');
+
 .Project-section-container{
     height: 55em;
     background-image: url('https://i.ibb.co/1rNTyX7/Untitled-design-6.png');
@@ -13,6 +15,7 @@
     font-size: 2.4em;
     text-align: end;
     padding: 1.5em 2em 1em 0em;
+    
 }
 
 .Project-project-container{
@@ -42,10 +45,13 @@
 }
 
 .project-title{
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding: 0.5em;
     margin-top: 0.7em;
     text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #222831;
+    font-weight: bolder;
 }
 
 .coffee-gif, .frisbee-gif, .portfolio-gif, .mod-4, .capstone{
@@ -64,4 +70,5 @@
     font-size: 0.8em;
     text-align: center;
     margin: 0em 2em 0em 2em;
+    font-family: 'Noto Sans JP', sans-serif;
 }

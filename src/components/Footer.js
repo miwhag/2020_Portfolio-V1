@@ -14,10 +14,10 @@ export default function Footer() {
                         <p className="get-connected-text">720-240-3984</p>
                         <section className="Footer-content">
                             <a href ="mailto:miwhag@gmail.com"><img className="Footer-links" src="https://i.ibb.co/HCqybSP/mail-2.png" alt="signature"/></a>  
-                            <a href ="https://github.com/miwhag"><img className="Footer-links" src="https://i.ibb.co/NyYsL14/github-2.png" alt="signature"/></a>  
-                            <a href ="https://www.linkedin.com/in/miwha-geschwind/"><img className="Footer-links" src="https://i.ibb.co/fqvzWXm/linkedin-4.png" alt="signature"/></a>  
+                            <a href ="https://github.com/miwhag" target="_blank"><img className="Footer-links" src="https://i.ibb.co/NyYsL14/github-2.png" alt="signature"/></a>  
+                            <a href ="https://www.linkedin.com/in/miwha-geschwind/" target="_blank"><img className="Footer-links" src="https://i.ibb.co/fqvzWXm/linkedin-4.png" alt="signature"/></a>  
                             <a href =""><img className="Footer-links" src="https://i.ibb.co/Y7mn8CH/phone-call.png" alt="phone"/></a>  
-                            <a href ="https://medium.com/@miwhag"><img className="Footer-links" src="https://i.ibb.co/SN6dkxZ/medium.png" alt="phone"/></a>  
+                            <a href ="https://medium.com/@miwhag" target="_blank"><img className="Footer-links" src="https://i.ibb.co/SN6dkxZ/medium.png" alt="phone"/></a>  
                         </section>
                     </div>
 
