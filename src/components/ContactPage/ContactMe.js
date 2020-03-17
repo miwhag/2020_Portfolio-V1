@@ -34,7 +34,7 @@ export default class ContactMe extends Component {
 
 
 
-        Axios.post('http://localhost:3030/api/email', this.state)
+        Axios.post('https://miwha-geschwind-portfolio.herokuapp.com/', this.state)
             .then(res => {
                 if(res.data.success) {
                     this.setState({

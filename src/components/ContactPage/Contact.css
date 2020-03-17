@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color:#fffdf9;
+    background-color:white;
 }
 
 .Contact-main-container{
@@ -16,7 +16,7 @@ body{
 .ContactMe-container{
     display: flex;
     justify-content: center;
-    width: 60em;
+    width: 55em;
     box-shadow: 5px 10px 40px #888888;
     border-radius: 2em 2em 2em 2em;
 }
@@ -26,8 +26,8 @@ body{
     flex-direction: column;
     justify-content: center;
     width: 60%;
-    height: 35em;
-    background-color: whitesmoke ;
+    height: 30em;
+    background-color: #F38E66;
     padding-top: 2em;
     border-radius: 2em 0em 0em 2em; 
 }
@@ -48,41 +48,54 @@ body{
 .ContactMe-form-input{
     margin: 1em 4em 1em 4em;
     font-size: 1em;
+    color: white;
     height: 2.5em;
     border: 0;
     outline: 0;
     background: transparent;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid white;
+}
+
+.ContactMe-form-input::placeholder{
+    color: white;
 }
 
 .ContactMe-form-submit{
-    height: 3em;
-    width: 10em;
-    align-self: center;
+    color: white;
     font-size: 1em;
-    color: grey;
+    background-color:#F38E66;
+    border: 1px solid white;
     border-radius: 4em;
-    margin-top: 0.5em;
+    height: 3em;
+    width: 8em;
+    margin-top: 1em;
+    align-self: center;
 }
 
 .ContactMe-form-submit:hover{
-    background-color: #537ec5;
-    color: white;
     font-size: 1em;
+    color: #F38E66;
+    background-color: white;
+    border-radius: 4em;
 }
 
 .ContactMe-form-message{
-    margin: 1em 4em 1em 4em;
-    height: 8em;
-    font-size: 1em;
+    margin: 1em 4.5em 1em 4.5em;
+    height: 7em;
+    font-size: 0.8em;
     resize: vertical;
     border-radius: 0.3em;
     border: none;
+}
+
+.ContactMe-form-message:focus{
+    outline: none;
 }
 
 .ContactMe-greeting{
     font-size: 2.3em;
     color: #333333;
     text-align: center;
+    padding-left: 0.5em;
    font-weight: 900;
 }
