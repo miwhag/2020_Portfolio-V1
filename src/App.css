@@ -191,14 +191,11 @@ text-align: center;
    background-size: 90em;
 }
 
-
-
 footer{
   background-color: #323232;
   background-image: url("https://i.ibb.co/LdRLTm3/classy-fabric.png");
   color: #5d5b6a;
-  height: 12.5em;
- 
+  height: 12em;
 }
 
 .signature{
@@ -225,7 +222,6 @@ footer{
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 22em;
   font-size: 1em;
   font-weight: 900;
   padding: 1em 0em 1em 0em;
@@ -233,15 +229,14 @@ footer{
 
 .Footer-links{
   width: 2em;
-  padding: 1em;
+  height: 2em;
+  margin:  0.5em;
 }
 
 
 .Footer-get-connected-container, .Footer-signature-links-container, .Footer-get-connected-container{
-padding: 1.5em 1.5em 0em 1.5em;
-margin-top: 1em;
-width: 23em;
-
+margin: 2.1em 1em 1em 1em;
+width: 24em;
 }
 
 .get-connected-text{
@@ -250,20 +245,16 @@ width: 23em;
 
 .Footer-navigation-content{
   display: Flex;
-  flex-wrap: wrap;
   padding: 2em 1em 1em 1em;
 }
 
 .Footer-navigation{
-  font-size: 1.1em;
+  font-size: 1em;
   color: #5d5b6a;
   text-decoration: none;
-  padding: 0 0.5em 1em 0.5em;
+  padding: 0em 0.5em 1em 0.5em;
 }
 .Footer-navigation:hover{
   font-weight: 900;
 }
 
-.test{
-  align-self: flex-end;
-}

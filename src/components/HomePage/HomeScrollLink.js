@@ -10,7 +10,7 @@ export default function HomeScrollLink() {
         smooth={true}
         offset={-70}
         duration= {800}
-        className="NavBar-links" 
-        to='HomePageBlocks-about-me'>About Me</Link>
+        className="Footer-navigation"
+        to='navbar'>Scroll to Top</Link>
     )
 }
