@@ -192,7 +192,7 @@ text-align: center;
     background-image: url('https://i.ibb.co/HDysbgx/marble.png');
     background-attachment: fixed;
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     width: 100%;
    background-size: 90em;
 }
@@ -239,18 +239,22 @@ footer{
   margin:  0.5em;
 }
 
-.Footer-get-connected-container, .Footer-signature-links-container, .Footer-get-connected-container{
+.Footer-get-connected-container, .Footer-get-connected-container{
 margin: 2.1em 1em 1em 1em;
-width: 24em;
+width: 26em;
 }
 
+.Footer-signature-links-container{
+  margin: 2.1em 1em 1em 1em;
+width: 13em;
+}
 .get-connected-text{
   font-size: 0.9em;
 }
 
 .Footer-navigation-content{
   display: Flex;
-  padding: 2em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
 }
 
 .Footer-navigation{
