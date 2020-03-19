@@ -50,8 +50,6 @@ export default function Projects() {
 
                     </div>
            </main>
-           <hr className="Projects-line-break"></hr>
-           <h1 className="Typewriter-blog-post-header"> Blog Posts</h1> 
         </div>
     )
 }

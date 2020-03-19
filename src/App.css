@@ -111,7 +111,7 @@ p  {
   color:white;
   font-size:4em; 
   padding: 0.5em;
-  height: 6.9em;
+  height: 6em;
 }
 
 .box-body-container{
@@ -188,7 +188,7 @@ text-align: center;
 
 
 .space-divider{
-    height: 20em;
+    height: 19em;
     background-image: url('https://i.ibb.co/HDysbgx/marble.png');
     background-attachment: fixed;
     background-position: center;
@@ -238,7 +238,6 @@ footer{
   height: 2em;
   margin:  0.5em;
 }
-
 
 .Footer-get-connected-container, .Footer-signature-links-container, .Footer-get-connected-container{
 margin: 2.1em 1em 1em 1em;

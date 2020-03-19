@@ -21,7 +21,7 @@ export default class Home extends Component {
             <body>
             <HomePageBlocks/>
             <SpaceDivider/>
-            <Projects/>
+            {/* <Projects/> */}
             <BlogHome/>
             <CakeProjects/>
             <Footer/>
