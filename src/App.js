@@ -1,15 +1,11 @@
 import React from 'react';
 import {Component} from 'react'
 import './App.css';
-import NavBarRoutes from '../src/components/NavigationLinks/NavBarRoutes'
+import NavBarRoutes from './components/Navigation/NavBarRoutes'
 
 
 class App extends Component {
 
-  componentDidMount(){
-    fetch('https://miwha-geschwind-portfolio.herokuapp.com/')
-  }
-  
   render() {
     return(
       <NavBarRoutes/>

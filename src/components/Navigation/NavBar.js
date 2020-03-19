@@ -8,9 +8,7 @@ export default function NavBar() {
         <div className="navbar">
         
             <Link className="NavBar-links"to='/'>Home</Link>
-            {/* <HomeScrollLink/> */}
             <Link className="NavBar-links"to='/download_resume'>Resume</Link>
-           {/* <Link className="NavBar-links"to='/blogs'>Blogs</Link> */}
            <Link className="NavBar-links" to='/contact'>Contact</Link>
         </div>
     )

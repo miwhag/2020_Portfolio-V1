@@ -1,6 +1,6 @@
 import React from 'react'
-import CoffeeGIF from '../coffeeGIF.gif'
-import FrisbeeGIF from '../ultimate.gif'
+import CoffeeGIF from '../../Images/coffeeGIF.gif'
+import FrisbeeGIF from '../../Images/ultimate.gif'
 import './Projects.css'
 
 export default function Projects() {

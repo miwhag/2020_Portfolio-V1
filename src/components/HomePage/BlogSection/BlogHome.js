@@ -1,5 +1,5 @@
 import React from 'react'
-import mediumImage from '../../medium_article.png'
+import mediumImage from '../../Images/medium_article.png'
 import Typewriter from './Typewriter'
 
 export default function BlogHome() {

@@ -7,8 +7,8 @@ export default function HomePageBlocks(){
         <div className="about-me-section">
             <div className="HomePageBlocks-about-me">
                 <h1>Nice to Meet You</h1>
-                <p className="HomePageBlocks-about-me-paragraph"> Born and raised in Colorado, I love everything this state has to offer. I previously worked in the pastry industry, and then in insurance 
-                but throughout all of my experience always let my creativity lead me forward. I'm a Flatiron Coding School graduate as of April 2020, and excited to be a part of the Denver Tech Community. <br></br></p>
+                <p className="HomePageBlocks-about-me-paragraph"> Driven by curiousity, new adventures and challenges, I previously worked in the pastry industry as a cake decorator, food stylist, tutorial writer and production assistant. <br></br><br></br>
+                Eventually I found myself in the insurance industry, but throughout all of my  experiences always let my creativity be my driving force. Currently I am working towards being a Flatiron School graduate as of April 2020, and excited to be a part of the Denver Tech Community. <br></br></p>
             </div>
     
         <div className="box-body-container">
@@ -31,8 +31,8 @@ export default function HomePageBlocks(){
                 <ul className="HomeBlock-box-text-content">
                     <li>Ruby </li>
                     <li>Ruby on Rails</li>
-                    <li>SQLite3</li>
-                    <li>ActiveRecord</li>
+                    <li>Express</li>
+                    <li>Heroku</li>
                 </ul>
             </section>
 

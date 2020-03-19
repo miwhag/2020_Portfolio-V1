@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import Signature from '../Signature.png'
+import Signature from './Images/Signature.png'
 import HomeScrollLink from './HomePage/HomeScrollLink'
 
 
