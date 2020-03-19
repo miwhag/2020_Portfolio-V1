@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,700&display=swap');
+
+.Typewriter-blog-post-header{
+  font-size: 2.3em;
+  margin: 1.5em 0em -0.5em 1em;
+
+}
+
+.BlogHome-container{
+    display: flex;
+    background-color: white;
+    background-image: url("https://i.ibb.co/kQ3NXRv/Blog-Post-blue-background.png");
+    background-size: 25em;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    height: 25em;
+  }
+  
+
+  .BlogHome-medium-image{
+    width: 33em;
+    padding: 1em 4em 4em 8em;
+    margin-top: 1em;
+  }
+
+  .BlogHome-typewriter-container{
+      align-self: center;
+      display: flex;
+    flex-direction: column;
+  }
+
+.typewriter{
+    display:flex;
+    justify-content: center;
+}
+
+.Typewriter-Header{
+    color:#537ec5;
+    font-size: 2.6em;
+    margin-left: -1.5em;
+    margin-top: 0.5em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+}
+
+Typewriter-response-wrapper{
+    font-size: 2.6em;
+    display: flex;
+    height: 3em;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 0.5em;
+    margin-left: -9em;
+}
+
+.Typewriter-medium-link{
+    padding-top:5.7em;
+    margin-left: 9.6em;
+    text-decoration: none;
+    color: #444444;
+    font-size: 1.2em;
+}
+
+.Typewriter-green-icon{
+   height: 4em;
+}
+
+
+
+

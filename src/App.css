@@ -39,7 +39,7 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
+blockquote:before, blockquote:after
 q:before, q:after {
 	content: '';
 	content: none;
@@ -105,7 +105,7 @@ p  {
   color:white;
   font-size:4em; 
   padding: 0.5em;
-  height: 6em;
+  height: 6.9em;
 }
 
 .box-body-container{
@@ -129,11 +129,11 @@ text-align: center;
 }
 
 .HomePageBlocks-about-me-paragraph{
-  width: 40em;
+  width: 43em;
   text-align: center;
-  font-size: 0.5em;
-  margin: 1em 0em 1em 0em;
-
+  font-size: 0.49em;
+  margin: 1em 0em 0em 0em;
+  line-height: 1.1em;
 }
 
 .HomeBlock-box-text-content{
@@ -156,8 +156,8 @@ text-align: center;
   box-shadow: 12px 17px 15px #868686;
   border-radius:4em;
   align-self: center;
-  width:19em;
-  height: 18em;
+  width:18em;
+  height: 17em;
   background-color: white;
   color: #222831;
   margin: 1em;

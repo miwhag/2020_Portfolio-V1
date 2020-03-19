@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Axios from 'axios'; 
 import './Contact.css'; 
 
+
 export default class ContactMe extends Component {
 
     state =  {
@@ -25,14 +26,9 @@ export default class ContactMe extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-
-        console.log(event.target);
-
         this.setState({
             disabled: true
         });
-
-
 
         Axios.post('https://miwha-geschwind-portfolio.herokuapp.com/emails', this.state)
             .then(res => {
@@ -49,14 +45,19 @@ export default class ContactMe extends Component {
                 }
             })
             .catch(err => {
-                console.log(err);
-
                 this.setState({
                     disabled: false,
                     emailSent: false
                 });
             })
 
+        
+                this.setState({name: "", 
+                email: "", 
+                message: "", 
+                disabled: false, 
+                emailSent: null,})
+        
     }
 
     render() {
@@ -102,9 +103,9 @@ export default class ContactMe extends Component {
                             Send
                     </button>
 
-
-                    {this.state.emailSent === true && <p className="ContactMe-form-success-message">Email Sent</p>}
-                    {this.state.emailSent === false && <p className="ContactMe-form-failure-message">Email Not Sent</p>}
+                   
+                    {this.state.emailSent === true && <p className="ContactMe-form-success-message"> Success!</p>}
+                    {this.state.emailSent === false && <p className="ContactMe-form-failure-message">Please Try Again</p>}
 
                 </form>
 

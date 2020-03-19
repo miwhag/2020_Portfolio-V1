@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import Signature from '../Signature.png'
+import Signature from './Images/Signature.png'
 import HomeScrollLink from './HomePage/HomeScrollLink'
 
 
@@ -19,7 +19,6 @@ export default function Footer() {
                             <a href ="mailto:miwhag@gmail.com"><img src={"https://i.ibb.co/HCqybSP/mail-2.png"} className="Footer-links" alt="signature"/></a>  
                             <a href ="https://github.com/miwhag" target="_blank"><img src={"https://i.ibb.co/NyYsL14/github-2.png"} alt="signature" className="Footer-links"/></a>  
                             <a href ="https://www.linkedin.com/in/miwha-geschwind/" target="_blank"><img src={"https://i.ibb.co/fqvzWXm/linkedin-4.png"} className="Footer-links" alt="signature"/></a>  
-                            <a href ="/"><img src={"https://i.ibb.co/Y7mn8CH/phone-call.png"} className="Footer-links" alt="phone"/></a>  
                             <a href ="https://medium.com/@miwhag" target="_blank"><img src={"https://i.ibb.co/SN6dkxZ/medium.png"} className="Footer-links"alt="phone"/></a>  
                         </section>
                         
