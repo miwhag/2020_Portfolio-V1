@@ -6,15 +6,12 @@ This is the first iteration of my tech portfolio.
 
 ---
 
-## How the app works  
+## To view project locally   
 
-* To run the app, first fork and clone down this repo to your local device. 
-* Note you will also need to clone down the backend repo at https://github.com/miwhag/ultimate-backend
-   * In the backend type into your terminal
-        * `bundle install` 
-        * `rails db:migrate` 
-        * `rails db: seed`
-        * `rails s (runs your server)` 
+   * Fork and clone repository
+    * In the terminal:
+        * `npm install` 
+        * `npm start`
 
 ### Stack
 * Javascript 
