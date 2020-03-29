@@ -19,7 +19,7 @@ https://miwha.co/
 ### Stack
 * Javascript 
 * React 
-* HTML/SCSS 
+* HTML/CSS 
 * Firebase
 * Heroku
 * Node.js / Express 
