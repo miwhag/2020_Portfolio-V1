@@ -6,8 +6,7 @@ This is the first iteration of my tech portfolio.
 
 ---
 
-## To view project locally   
-
+### To view project locally   
    * Fork and clone repository
      * In the terminal:
         * `npm install` 
