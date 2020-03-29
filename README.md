@@ -9,7 +9,7 @@ This is the first iteration of my tech portfolio.
 ## To view project locally   
 
    * Fork and clone repository
-    * In the terminal:
+     * In the terminal:
         * `npm install` 
         * `npm start`
 
