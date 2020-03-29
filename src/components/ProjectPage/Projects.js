@@ -1,7 +1,7 @@
 import React from 'react'
 import CoffeeGIF from '../Images/coffeeGIF.gif'
 import FrisbeeGIF from '../Images/ultimate.gif'
-import PortfolioGIF from '../Images/Portfolio.GIF'
+import PortfolioGIF from '../../Portfolio.GIF'
 import './Projects.css'
 
 export default function Projects() {
