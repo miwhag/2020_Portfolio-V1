@@ -1,68 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Portfolio - Iteration 1 
 
-In the project directory, you can run:
+This mod 3 fullstack app was created with the purpose of creating the ability to schedule games and keep track of the roster for the Flatiron Flyers Ultimate Frisbee Team. 
 
-### `npm start`
+![](Portfolio.GIF)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## How the app works  
 
-### `npm test`
+* To run the app, first fork and clone down this repo to your local device. 
+* Note you will also need to clone down the backend repo at https://github.com/miwhag/ultimate-backend
+   * In the backend type into your terminal
+        * `bundle install` 
+        * `rails db:migrate` 
+        * `rails db: seed`
+        * `rails s (runs your server)` 
+        
+* Once you have your backend server running, you can go into the frontend repo you cloned down, and in another terminal tab type `lite-server` into the terminal. This will prompt the application to start. 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* From there you can navigate through the website seen in the video above 
+   * Home will bring you to the homepage 
+   * Frisbee will bring you to the about frisbee page. Currently there is just some lipsum text with some images from past ultimate frisbee teams I played on. 
+   * Schedule will give you a dropdown option to edit the current schedule or view the games in detail. 
+      * The Edit Schedule page allows you to add new teams, create new matchups, delete matchups, and delete teams. 
+      * The Schedule page allows you to view all of the games scheduled. Click on the view more link and it will show you all the information about the game including the location of the game and field on a Google Map. 
 
-### `npm run build`
+          * Note: You will need your own API key to see the Google map of the frisbee game location. The Google API link is in the game_info.html file in the scripts. If you are interested in obtaining a key you can get one here at: https://developers.google.com/maps/documentation/geocoding/get-api-key
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Finally the Team dropdown will give you an option to view the roster, or view all the players in the league. 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Things to add / Down the pipeline
 
-### `npm run eject`
+* Allow the ability to sort the scheduled games in order of date 
+* Update/Delete/Create Players on the roster 
+* Update the score and declare a winner and loser
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Technologies 
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Javascript 
+* Google Javascript API 
+* Bootstrap 
+* Flickity 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Authors
 
-## Learn More
+* Miwha Geschwind - [Github Repo](https://github.com/miwhag)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
