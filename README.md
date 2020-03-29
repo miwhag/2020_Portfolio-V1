@@ -3,8 +3,12 @@
 This is the first iteration of my tech portfolio.
 
 ![](src/Portfolio.GIF)
-
 ---
+
+### Live link
+Live link may not reflect this version, as it should be the most current. 
+
+www.miwha.co 
 
 ### To view project locally   
    * Fork and clone repository
