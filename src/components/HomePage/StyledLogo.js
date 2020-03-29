@@ -18,7 +18,7 @@ const pulse = keyframes`
 `;
 export const StyledLogo = styled(ReactLogo)`
 margin-top: -2em;
-height: 55em;
+height: 48em;
 border: none;
 
 

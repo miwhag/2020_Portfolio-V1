@@ -34,7 +34,8 @@ export default function Footer() {
 
                             <Link className="Footer-navigation"to='/download_resume'> Resume</Link> \ 
                             <Link className="Footer-navigation" to='/contact'>Contact</Link> \ 
-                            <HomeScrollLink />
+                            <HomeScrollLink /> \
+                            <Link className="Footer-navigation" to='/projects'>Projects</Link> \ 
                         </section>
                     </div>
                 </main>

@@ -5,10 +5,11 @@ import SpaceDivider from './SpaceDivider'
 import Footer from '../Footer'
 import BlogHome from '../HomePage/BlogSection/BlogHome'
 import {StyledLogo} from './StyledLogo'
-import Projects from './ProjectSection/Projects'
 import CakeProjects from './CakeSection/CakeProjects'
 
+
 export default class Home extends Component {
+
     render(){
         return (
             <div className="HomePage">
@@ -21,7 +22,6 @@ export default class Home extends Component {
             <body>
             <HomePageBlocks/>
             <SpaceDivider/>
-            {/* <Projects/> */}
             <BlogHome/>
             <CakeProjects/>
             <Footer/>

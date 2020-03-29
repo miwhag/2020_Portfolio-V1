@@ -52,12 +52,12 @@ table {
 /* Reset CSS style above */
 body{
   font-family: 'Raleway', sans-serif;
+  width: 100%;
 }
 
 .HomePage {
   font-family: 'Raleway', sans-serif;
   color:#4d4646;
-  width: 100%;
 }
 
 
@@ -98,7 +98,7 @@ body{
 }
 
 #miwha-image{
-  width: auto;
+padding: 1em 0em 1em 3em;
 }
 
 p  {
@@ -135,7 +135,6 @@ text-align: center;
 }
 
 .HomePageBlocks-about-me-paragraph{
-  width: 43em;
   text-align: center;
   font-size: 0.49em;
   margin: 1em 0em 0em 0em;
@@ -162,7 +161,6 @@ text-align: center;
   box-shadow: 12px 17px 15px #868686;
   border-radius:4em;
   align-self: center;
-  width:18em;
   height: 17em;
   background-color: white;
   color: #222831;
@@ -192,7 +190,7 @@ text-align: center;
     background-image: url('https://i.ibb.co/HDysbgx/marble.png');
     background-attachment: fixed;
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     width: 100%;
    background-size: 90em;
 }
@@ -239,18 +237,22 @@ footer{
   margin:  0.5em;
 }
 
-.Footer-get-connected-container, .Footer-signature-links-container, .Footer-get-connected-container{
+.Footer-get-connected-container, .Footer-get-connected-container{
 margin: 2.1em 1em 1em 1em;
-width: 24em;
+width: 26em;
 }
 
+.Footer-signature-links-container{
+  margin: 2.1em 1em 1em 1em;
+width: 13em;
+}
 .get-connected-text{
   font-size: 0.9em;
 }
 
 .Footer-navigation-content{
   display: Flex;
-  padding: 2em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
 }
 
 .Footer-navigation{
@@ -263,3 +265,8 @@ width: 24em;
   font-weight: 900;
 }
 
+@media(max-width: 768px){
+  body{
+    width: 100%;
+  }
+}
