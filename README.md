@@ -20,6 +20,8 @@ https://miwha.co/
 * Javascript 
 * React 
 * HTML/SCSS 
+* Firebase
+* Heroku
 * Node.js / Express 
 * Sendgrid 
 
