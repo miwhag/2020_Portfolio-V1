@@ -8,8 +8,8 @@ This is the first iteration of my tech portfolio.
 ### Live link
 Live link may not reflect this version, as it should be the most current. 
 
-Frontend: https://miwha.co/
-Backend: https://miwha-geschwind-portfolio.herokuapp.com/
+* Frontend: https://miwha.co/
+* Backend: https://miwha-geschwind-portfolio.herokuapp.com/
 
 ### To view project locally   
    * Fork and clone repository
