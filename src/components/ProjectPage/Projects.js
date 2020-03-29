@@ -1,6 +1,7 @@
 import React from 'react'
 import CoffeeGIF from '../Images/coffeeGIF.gif'
 import FrisbeeGIF from '../Images/ultimate.gif'
+import PortfolioGIF from '../Images/Portfolio.GIF'
 import './Projects.css'
 
 export default function Projects() {
@@ -28,7 +29,7 @@ export default function Projects() {
                     <a href="https://github.com/miwhag/2020_Portfolio-" target="_blank"><img className="Project-github-logo" src="https://i.ibb.co/NyYsL14/github-2.png" alt="github-logo"/></a> 
                     <h1 className="project-title">Portfolio</h1>
                     <p className="project-about"> React Porftolio you are on currently.</p>
-                    <img className="portfolio-gif" src="https://i.ibb.co/CJ6CNPr/TBD.jpg" alt="portfolio-gif"/> 
+                    <img className="portfolio-gif" src={PortfolioGIF} alt="portfolio-gif"/> 
                 
 
                     </div>   

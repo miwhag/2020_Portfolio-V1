@@ -7,7 +7,9 @@ import BlogHome from '../HomePage/BlogSection/BlogHome'
 import {StyledLogo} from './StyledLogo'
 import CakeProjects from './CakeSection/CakeProjects'
 
+
 export default class Home extends Component {
+
     render(){
         return (
             <div className="HomePage">
